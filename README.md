@@ -13,38 +13,38 @@ Git is one of the most popular free and open-source version control systems out 
 ### Git's File Structure
 Whenever you create a git repository with ```git init```, Git creates a hidden folder called ```.git/```. The dot tells your computer to hide the folder. Inside this folder you will see the following folder structure:
 
-.git/
-├── hooks/
-├── info/
-├── logs/
-    ├── refs/
-    ├── heads/
-    ├── remotes/
-        ├── origin/
-        ├── .../
-        └── HEAD
-    ├── objects/
-        ├── 00/
-            ├── 0f33j4nenvi34857313840583731b7oh7
-            └──...
-        ├── 0a/
-        ├── 0b/
-        └──.../
-    ├── refs/
-        ├── heads/
-        ├── main
-        ├── remotes/
-            ├── origin/
-            └── skeleton/
-        └──tags/
-    ├── COMMIT_EDITMSG
-├── config
-├── description
-├── FETCH_HEAD
-├── HEAD
-├── index
-├── Main.java
-└── ORIG_HEAD
+.git/  
+├── hooks/  
+├── info/  
+├── logs/  
+    ├── refs/  
+    ├── heads/  
+    ├── remotes/  
+        ├── origin/  
+        ├── .../  
+        └── HEAD  
+    ├── objects/  
+        ├── 00/  
+            ├── 0f33j4nenvi34857313840583731b7oh7  
+            └──...  
+        ├── 0a/  
+        ├── 0b/  
+        └──.../  
+    ├── refs/  
+        ├── heads/  
+        ├── main  
+        ├── remotes/  
+            ├── origin/  
+            └── skeleton/  
+        └──tags/  
+    ├── COMMIT_EDITMSG  
+├── config  
+├── description  
+├── FETCH_HEAD  
+├── HEAD  
+├── index  
+├── Main.java  
+└── ORIG_HEAD  
   
   Depending on what you've done so far with your project, your git directory may or may not have some of the folders above. 
   
