@@ -17,27 +17,27 @@ Whenever you create a git repository with ```git init```, Git creates a hidden f
 ├── hooks/  
 ├── info/  
 ├── logs/  
-&nbsp;&nbsp;&nbsp;├── refs/  
-    ├── heads/  
-    ├── remotes/  
-        ├── origin/  
-        ├── .../  
-        └── HEAD  
-    ├── objects/  
-        ├── 00/  
-            ├── 0f33j4nenvi34857313840583731b7oh7  
-            └──...  
-        ├── 0a/  
-        ├── 0b/  
-        └──.../  
-    ├── refs/  
-        ├── heads/  
-        ├── main  
-        ├── remotes/  
-            ├── origin/  
-            └── skeleton/  
-        └──tags/  
-    ├── COMMIT_EDITMSG  
+&nbsp;&nbsp;&nbsp;&nbsp;├── refs/  
+&nbsp;&nbsp;&nbsp;&nbsp;├── heads/  
+&nbsp;&nbsp;&nbsp;&nbsp;├── remotes/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── origin/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .../  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── HEAD  
+&nbsp;&nbsp;&nbsp;&nbsp;├── objects/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 00/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 0f33j4nenvi34857313840583731b7oh7  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──...  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 0a/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 0b/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──.../  
+&nbsp;&nbsp;&nbsp;&nbsp;├── refs/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── heads/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── main  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── remotes/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── origin/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── skeleton/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──tags/  
+&nbsp;&nbsp;&nbsp;&nbsp;├── COMMIT_EDITMSG  
 ├── config  
 ├── description  
 ├── FETCH_HEAD  
