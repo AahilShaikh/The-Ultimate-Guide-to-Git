@@ -11,7 +11,7 @@ Git is one of the most popular free and open-source version control systems out 
 ## How does Git Work?
 
 ### Git's File Structure
-Whenever you create a git repository with ```git init```, Git creates a hidden folder called ```.git/```. The dot tells your computer to hide the folder. Inside this folder you will see the following folder structure:
+Whenever you create a git repository with ```git init```, Git creates a hidden folder called ```.git/```. The dot suffix tells your computer to hide the folder. Inside this folder you will see the following folder structure:
 
 .git/  
 ├── hooks/  
