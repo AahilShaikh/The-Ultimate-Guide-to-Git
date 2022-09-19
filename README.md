@@ -17,7 +17,7 @@ Whenever you create a git repository with ```git init```, Git creates a hidden f
 ├── hooks/  
 ├── info/  
 ├── logs/  
-    ├── refs/  
+&nbsp;&nbsp;&nbsp;├── refs/  
     ├── heads/  
     ├── remotes/  
         ├── origin/  
